@@ -10479,7 +10479,6 @@
     <Content Include="Areas\Admin\Contents\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
     <Content Include="Areas\Admin\Contents\vendor\jquery\jquery.min.map" />
     <Content Include="Areas\Admin\Contents\vendor\jquery\jquery.slim.min.map" />
-    <Content Include="Areas\Admin\Views\Categories\CategoryPartial.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\Details.cshtml" />

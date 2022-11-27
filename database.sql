@@ -1,7 +1,8 @@
 --New Database: DBSportStore
 -- Bang AdminUser
 
-
+Create database Shop
+use Shop;
 CREATE TABLE [dbo].[AdminUser] (
     [ID]           INT            NOT NULL,
     [NameUser]     NVARCHAR (MAX) NULL,
