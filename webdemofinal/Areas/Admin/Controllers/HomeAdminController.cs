@@ -11,6 +11,7 @@ namespace webdemofinal.Areas.Admin.Controllers
         // GET: Admin/HomeAdmin
         public ActionResult Index()
         {
+            
             return View();
         }
     }

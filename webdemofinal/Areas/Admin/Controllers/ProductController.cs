@@ -16,7 +16,7 @@ namespace webdemofinal.Areas.Admin.Controllers
         // GET: Admin/Product
         AdminC db = new AdminC();
         public ActionResult Index()
-        {
+        {   
             var products = db.Products.Include(p => p.Category1);
             return View(products.ToList());
         }

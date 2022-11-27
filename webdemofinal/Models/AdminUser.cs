@@ -11,12 +11,15 @@ namespace webdemofinal.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class AdminUser
     {
         public int ID { get; set; }
         public string NameUser { get; set; }
         public string RoleUser { get; set; }
+        [Required]
+        [DataType(DataType.Password)]
         public string PasswordUser { get; set; }
     }
 }
